@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    background-color: rgba(128, 128, 128, 20%);
+}
+#header {
+    width: 100vw;
+    height: 15vh;
+    background-color: rgba(0, 0, 0, 70%);
+}
+
+#bodyDiv {
+    width: 75vw;
+    height: 75vh;
+    margin-left: 12.5vw;
+    background-color: white;
+}
+
+#footer {
+    width: 75vw;
+    height: 10vh ;
+    margin-left: 12.5vw;
+    background-color: black;
+}

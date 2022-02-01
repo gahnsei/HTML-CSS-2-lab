@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    height: 100vh;
+    background-color: blue;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+#top {
+    width: 95vw;
+    height: 20vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    /* margin: 10px; */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+#purpleBox {
+    width: 40px;
+    height: 100px;
+    background-color: purple;
+    margin: 5px;
+}
+
+#greenBox {
+    width: 300px;
+    height: 150px;
+    background-color: green;
+    margin: 5px;
+    margin-left: 30px;
+}
+
+#blueBall {
+    width: 150px;
+    height: 150px;
+    background-color: skyblue;
+    margin: 5px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+
+#middle {
+    width: 95vw;
+    height: 30vh;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: black;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#tanBox {
+    width: 800px;
+    height: 150px;
+    background-color: beige;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 80%) ;
+}
+
+#bottom {
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 10%);
+    border-style: solid;
+    margin: 20px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 20%);
+}
+
+h1 {
+    text-align: center;
+    padding: 70px 200px 70px 200px;
+    color: blue;
+}
+
+
